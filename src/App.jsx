@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { 
   Phone, Calendar, Clock, MapPin, Menu, X, 
   CheckCircle2, Star, ChevronRight, Stethoscope, 
-  Smile, ShieldPlus, Activity, MessagesSquare, Instagram, Facebook, Twitter
+  Smile, ShieldPlus, Activity, MessagesSquare
 } from 'lucide-react';
 import './index.css';
 
@@ -258,9 +258,9 @@ function App() {
               Providing advanced dental care with a personalized touch to ensure your teeth stay healthy and beautiful.
             </p>
             <div style={{display:'flex', gap:'1rem'}}>
-              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem', borderRadius:'50%'}}><Facebook size={20} /></a>
-              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem', borderRadius:'50%'}}><Instagram size={20} /></a>
-              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem', borderRadius:'50%'}}><Twitter size={20} /></a>
+              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem 1rem', borderRadius:'2rem', fontSize:'0.875rem'}}>Facebook</a>
+              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem 1rem', borderRadius:'2rem', fontSize:'0.875rem'}}>Instagram</a>
+              <a href="#" style={{background:'rgba(255,255,255,0.1)', padding:'0.5rem 1rem', borderRadius:'2rem', fontSize:'0.875rem'}}>Twitter</a>
             </div>
           </div>
           <div>
