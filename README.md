@@ -1,16 +1,76 @@
-# React + Vite
+# SmileCare Clinic - Modern Dental Website 🦷✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Currently, two official plugins are available:
+A fully responsive, modern, and high-converting landing page for a Dental Clinic. Designed with premium medical UI aesthetics in mind, featuring smooth animations, glassmorphism elements, and a clean professional layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**🌐 Live Demo:** [https://Smart123-12.github.io/dental-clinic/](https://Smart123-12.github.io/dental-clinic/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **High-Converting Hero Section**: Catchy headlines with dual CTA buttons.
+- **Premium Services Grid**: Beautifully styled cards explaining various dental services.
+- **Trust-Building About Section**: Highlights years of experience and core values.
+- **Specialist Profiles**: Cards showcasing expert doctors.
+- **Patient Testimonials**: Clean review cards with star ratings.
+- **Interactive Booking Form**: A fully styled form ready for backend integration.
+- **Contact & Footer**: Professional layouts with Google Maps aesthetic placeholder.
+- **Floating WhatsApp Button**: Persistent CTA for instant chat.
+- **Micro-animations**: Smooth scroll reveals and hover effects.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: React 19
+- **Build Tool**: Vite
+- **Styling**: Vanilla CSS (CSS Variables, Flexbox, CSS Grid, Custom Keyframes)
+- **Icons**: Lucide React
+- **Deployment**: GitHub Pages (`gh-pages`)
+
+---
+
+## 💻 Local Setup Instructions
+
+Want to run this project locally? Follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Smart123-12/dental-clinic.git
+   cd dental-clinic
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser:**
+   Go to `http://localhost:5173` to view the app!
+
+---
+
+## 📦 Deployment Building
+
+To build the optimized static files for production:
+```bash
+npm run build
+```
+
+To automatically deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+---
+
+*Designed and Developed for Smart123-12* 💙
