@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Smart123-12.github.io/dental-clinic",
+  "homepage": "https://Smart123-12.github.io/dental-clinic_12",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "lucide-react": "^1.8.0",
