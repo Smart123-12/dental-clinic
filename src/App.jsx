@@ -24,12 +24,12 @@ function useReveal() {
 
 /* ── Services data ── */
 const SERVICES = [
-  { icon: <Smile size={28}/>, title: 'Teeth Cleaning', desc: 'Professional deep cleaning to remove plaque and tartar, keeping your gums healthy and breath fresh.', price: 'From $79' },
-  { icon: <Zap size={28}/>, title: 'Root Canal', desc: 'Pain-free, precision root canal treatments to save your natural tooth and eliminate infection.', price: 'From $299' },
-  { icon: <Sparkles size={28}/>, title: 'Braces & Aligners', desc: 'Clear aligners and modern braces for a perfectly straight smile you\'ll be proud to show off.', price: 'From $1,499' },
-  { icon: <Shield size={28}/>, title: 'Dental Implants', desc: 'Permanent, natural-looking implants that look and feel just like your real teeth.', price: 'From $999' },
-  { icon: <Star size={28}/>, title: 'Teeth Whitening', desc: 'Advanced whitening for a brilliantly bright smile — results you\'ll notice after a single session.', price: 'From $149' },
-  { icon: <HeartPulse size={28}/>, title: 'General Dentistry', desc: 'Comprehensive checkups, fillings, X-rays, and preventive care for your whole family.', price: 'From $59' },
+  { icon: <Smile size={28}/>, title: 'Teeth Cleaning', desc: 'Professional deep cleaning to remove plaque and tartar, keeping your gums healthy and breath fresh.', price: 'From ₹1,000' },
+  { icon: <Zap size={28}/>, title: 'Root Canal', desc: 'Pain-free, precision root canal treatments to save your natural tooth and eliminate infection.', price: 'From ₹3,500' },
+  { icon: <Sparkles size={28}/>, title: 'Braces & Aligners', desc: 'Clear aligners and modern braces for a perfectly straight smile you\'ll be proud to show off.', price: 'From ₹25,000' },
+  { icon: <Shield size={28}/>, title: 'Dental Implants', desc: 'Permanent, natural-looking implants that look and feel just like your real teeth.', price: 'From ₹15,000' },
+  { icon: <Star size={28}/>, title: 'Teeth Whitening', desc: 'Advanced whitening for a brilliantly bright smile — results you\'ll notice after a single session.', price: 'From ₹2,500' },
+  { icon: <HeartPulse size={28}/>, title: 'General Dentistry', desc: 'Comprehensive checkups, fillings, X-rays, and preventive care for your whole family.', price: 'From ₹500' },
 ];
 
 /* ── Why Choose Us data ── */
@@ -45,7 +45,7 @@ const WHY = [
 /* ── Testimonials data ── */
 const TESTIMONIALS = [
   {
-    name: 'Priya Sharma', role: 'Teacher, Mumbai',
+    name: 'Priya Sharma', role: 'Teacher, Rajkot',
     avatar: 'https://i.pravatar.cc/150?img=47',
     text: 'I was terrified of dentists until I came here. The team was so warm and the procedure was completely painless. My smile has transformed completely!',
     stars: 5,
@@ -112,7 +112,7 @@ export default function App() {
           </ul>
 
           <div className="nav-cta">
-            <a href="tel:+911234567890" className="btn btn-outline" style={{padding:'.65rem 1.25rem', fontSize:'.875rem'}}>
+            <a href="tel:+919999999999" className="btn btn-outline" style={{padding:'.65rem 1.25rem', fontSize:'.875rem'}}>
               <Phone size={16}/> Call Now
             </a>
             <a href="#booking" className="btn btn-primary" style={{padding:'.65rem 1.25rem', fontSize:'.875rem'}}>
@@ -143,18 +143,18 @@ export default function App() {
         <div className="container grid-2" style={{ minHeight:'90vh', paddingTop:'2rem', paddingBottom:'4rem' }}>
 
           <div className={`hero-content${heroV ? ' fade-up' : ''}`} style={{ opacity: heroV ? 1 : 0 }}>
-            <div className="hero-badge"><Sparkles size={14}/> #1 Rated Dental Clinic in Your City</div>
+            <div className="hero-badge"><Sparkles size={14}/> #1 Rated Dental Clinic in Gujarat</div>
 
             <h1 className="hero-title">
               Best Dental Care<br/>
-              <span className="hl">in Your City</span>
+              <span className="hl">in Gujarat</span>
             </h1>
             <p className="hero-sub">
               Book your appointment today. Expert dentists, modern tech, and zero pain — your perfect smile is one visit away.
             </p>
 
             <div className="hero-btns">
-              <a href="tel:+911234567890" className="btn btn-white">
+              <a href="tel:+919999999999" className="btn btn-white">
                 <Phone size={18}/> Call Now
               </a>
               <a href="#booking" className="btn btn-outline-white">
@@ -335,7 +335,7 @@ export default function App() {
                     </div>
                     <div className="form-group">
                       <label className="form-label">Phone *</label>
-                      <input className="form-input" placeholder="+91 98765 43210" required value={form.phone} onChange={e=>setForm({...form,phone:e.target.value})}/>
+                      <input className="form-input" placeholder="+91 99999 99999" required value={form.phone} onChange={e=>setForm({...form,phone:e.target.value})}/>
                     </div>
                   </div>
                   <div className="form-group">
@@ -378,8 +378,8 @@ export default function App() {
             <div id="contact" className={`${bookV ? ' fade-right' : ''}`} style={{ opacity: bookV ? 1 : 0, display:'flex', flexDirection:'column', gap:'1.5rem' }}>
               <div style={{ display:'flex', flexDirection:'column', gap:'1rem' }}>
                 {[
-                  { icon:<MapPin size={20}/>, label:'Clinic Address', value:'123 Smile Avenue, Medical District, Ahmedabad – 380001, Gujarat' },
-                  { icon:<Phone size={20}/>, label:'Phone / WhatsApp', value:'+91 98765 43210 | +91 87654 32109' },
+                  { icon:<MapPin size={20}/>, label:'Clinic Address', value:'Shop No. 12, Demo Complex, SG Highway, Ahmedabad, Gujarat 380015' },
+                  { icon:<Phone size={20}/>, label:'Phone / WhatsApp', value:'+91 99999 99999' },
                   { icon:<Clock size={20}/>, label:'Working Hours', value:'Mon – Sat: 9:00 AM – 8:00 PM | Sun: 10:00 AM – 2:00 PM' },
                 ].map((c,i) => (
                   <div key={i} className="contact-info-item">
@@ -406,10 +406,10 @@ export default function App() {
 
               {/* Quick action buttons */}
               <div style={{ display:'flex', gap:'1rem', flexWrap:'wrap' }}>
-                <a href="tel:+919876543210" className="btn btn-primary" style={{ flex:1, justifyContent:'center' }}>
+                <a href="tel:+919999999999" className="btn btn-primary" style={{ flex:1, justifyContent:'center' }}>
                   <Phone size={16}/> Call Us
                 </a>
-                <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment%20at%20SmileCare." target="_blank" rel="noreferrer"
+                <a href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment%20at%20SmileCare." target="_blank" rel="noreferrer"
                   className="btn" style={{ flex:1, justifyContent:'center', background:'#25d366', color:'white', borderRadius:'var(--r-full)', fontWeight:700, gap:'.5rem' }}>
                   <MessageCircle size={16}/> WhatsApp
                 </a>
@@ -455,9 +455,9 @@ export default function App() {
             <div>
               <div className="footer-heading">Contact Us</div>
               {[
-                [<MapPin size={14}/>, '123 Smile Ave, Ahmedabad, Gujarat'],
-                [<Phone size={14}/>, '+91 98765 43210'],
-                [<MessageCircle size={14}/>, 'info@smilecare.in'],
+                [<MapPin size={14}/>, 'Demo Complex, SG Highway, Ahmedabad, Gujarat'],
+                [<Phone size={14}/>, '+91 99999 99999'],
+                [<MessageCircle size={14}/>, 'info@smilecare.demo.in'],
                 [<Clock size={14}/>, 'Mon–Sat: 9AM – 8PM'],
               ].map(([icon, text], i) => (
                 <div key={i} className="footer-contact-item">
@@ -475,7 +475,7 @@ export default function App() {
 
       {/* ───────── FLOATING WHATSAPP ───────── */}
       <a
-        href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment%20at%20SmileCare."
+        href="https://wa.me/919999999999?text=Hi%2C%20I%20want%20to%20book%20a%20dental%20appointment%20at%20SmileCare."
         target="_blank" rel="noreferrer"
         className="whatsapp-btn"
         title="Chat on WhatsApp"
