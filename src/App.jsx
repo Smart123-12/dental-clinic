@@ -378,7 +378,7 @@ export default function App() {
             <div id="contact" className={`${bookV ? ' fade-right' : ''}`} style={{ opacity: bookV ? 1 : 0, display:'flex', flexDirection:'column', gap:'1.5rem' }}>
               <div style={{ display:'flex', flexDirection:'column', gap:'1rem' }}>
                 {[
-                  { icon:<MapPin size={20}/>, label:'Clinic Address', value:'Shop No. 12, Demo Complex, SG Highway, Ahmedabad, Gujarat 380015' },
+                  { icon:<MapPin size={20}/>, label:'Clinic Address', value:'Rajkot, Gujarat' },
                   { icon:<Phone size={20}/>, label:'Phone / WhatsApp', value:'+91 99999 99999' },
                   { icon:<Clock size={20}/>, label:'Working Hours', value:'Mon – Sat: 9:00 AM – 8:00 PM | Sun: 10:00 AM – 2:00 PM' },
                 ].map((c,i) => (
@@ -455,7 +455,7 @@ export default function App() {
             <div>
               <div className="footer-heading">Contact Us</div>
               {[
-                [<MapPin size={14}/>, 'Demo Complex, SG Highway, Ahmedabad, Gujarat'],
+                [<MapPin size={14}/>, 'Rajkot, Gujarat'],
                 [<Phone size={14}/>, '+91 99999 99999'],
                 [<MessageCircle size={14}/>, 'info@smilecare.demo.in'],
                 [<Clock size={14}/>, 'Mon–Sat: 9AM – 8PM'],
