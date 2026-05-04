@@ -6,7 +6,7 @@
 
 A fully responsive, modern, and high-converting landing page for a Dental Clinic. Designed with premium medical UI aesthetics in mind, featuring smooth animations, glassmorphism elements, and a clean professional layout.
 
-**🌐 Live Demo:** [[https://Smart123-12.github.io/dental-clinic/](https://Smart123-12.github.io/dental-clinic/](https://smart123-12.github.io/dental-clinic_12/))
+**🌐 Live Demo:** https://smart123-12.github.io/dental-clinic_12/
 
 ---
 
